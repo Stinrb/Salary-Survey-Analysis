@@ -1,0 +1,32 @@
+-- Helper column experience_years_overall validation
+if 
+    Text.Lower(Text.Trim([age_group])) = "18-24" and
+    List.Contains(
+        {
+            "8 - 10 years", 
+            "11 - 20 years", "21 - 30 years", 
+            "31 - 40 years", "41 years or more"
+        },
+        Text.Trim([experience_years_overall])
+    )
+then
+    "remove"
+else
+    "keep"
+
+
+-- Helper column experience_years_field validation
+if 
+    Text.Lower(Text.Trim([age_group])) = "18-24" and
+    List.Contains(
+        {
+            "8 - 10 years", 
+            "11 - 20 years", "21 - 30 years", 
+            "31 - 40 years", "41 years or more"
+        },
+        Text.Trim([experience_years_field])
+    )
+then
+    "remove"
+else
+    "keep"
