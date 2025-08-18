@@ -155,11 +155,13 @@ The dataset was imported in Excel for data cleaning using Power Query tools.
 
 ### Data Analysis
   Conducted exploratory analysis with visualizations to reveal patterns and insights across multiple categories, including distributions and average salaries.
+  
+  **Note:** Since most of the population of the data are from the United States, the analysis was done using the top 5 country with the most respondents and its respective currency, in this way, we are to ensure consistency and transparency of the data.
 
 
 #### Gender Distribution and Salary
-  There’s a notable imbalance in the gender distribution: women make up 78% of the total population, while men account for 19% and non-binary genders for 2–3%.
-  Men report the highest average salary, slightly above the $100k mark, followed by women and non-binary individuals, both in the $70–80k range.
+  - There’s a notable imbalance in the gender distribution: women make up 78% of the total population, while men account for 19% and non-binary genders for 2–3%.  
+  - Men report the highest average salary, slightly above the 100k mark, followed by women and non-binary individuals, both in the 70–80k range.
   This difference may be influenced by the relatively small number of men in the dataset, which could be skewing their average salary upward.
 
 <p align="center">
@@ -167,19 +169,45 @@ The dataset was imported in Excel for data cleaning using Power Query tools.
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/gender_salary.png" width="45%" />
 </p>
 
+
+#### Age Group Distribution and Salary
+  - Most of the population resides in 25-34 and 35-44 age group, this is a normal observation since these groups are the primary workforce of most organizations. 
+  - Age group 45-54 shows the highest average salary, followed closely by 35-44 and 55-64 groups. This can be due to pay grade or salaries having a correlation with age or work experience.
+
 <p align="center">
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/agegroup_distribution.png" width="45%" />
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/agegroup_salary.png" width="45%" />
 </p>
+
+
+#### Education Level Distribution and Salary
+  - The majority of respondents hold either a college degree or a master’s degree. An expected result, as this is a common requirement in today's professional roles in organizations. 
+  - In terms of average salary, respondents with Professional Degrees (MD, JD, etc.) stand out, earning well above 100k on average compared to the other groups. This may be linked to the specialized nature of these degrees, where advanced expertise offer a higher pay grade in roles requiring specific knowledge or skill sets. 
 
 <p align="center">
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/educationlevel_distribution.png" width="45%" />
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/educationlevel_salary.png" width="45%" />
 </p>
 
+
+#### Country Distribution and Salary
+  - The dataset is heavily skewed toward the United States, which accounts for over 20,000 respondents (more than 70% of the total population). The remaining respondents are primarily from Canada, the United Kingdom, Australia, and Germany.
+  - In terms of average salary, Australia reports the highest figures, exceeding the 100k mark, while the United Kingdom shows the lowest, around 50k. These results may be influenced by the relatively small sample sizes outside the United States, which can skew averages and limit broader generalization.
+
 <p align="center">
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/country_distribution.png" width="45%" />
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/country_salary.png" width="45%" />
+</p>
+
+
+#### Work and Role Tenure Distribution and Salary
+  - Work Tenure (overall years of experience): The top three groups are 2–4 years, 5–7 years, and 11–20 years, each with a closely even share of respondents. This aligns with the two most populated age brackets (25–34 and 35–44), which represent mid to advanced career professionals.
+  - Role Tenure (years of experience in current field/role): A significant proportion of respondents fall within the 11–20 years category, while the remaining groups generally have 5k respondents or fewer.
+  - In terms of salary, both work and role tenure show that respondents with 21–30 years of experience earn the highest average salaries, followed by those with 11–20 years and 41 years and more. This pattern suggests that career longevity and accumulated expertise are positively correlated with higher pay grades, often reflecting senior or executive-level positions.
+  
+<p align="center">
+  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/worktenure_distribution.png" width="45%" />
+  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/worktenure_salary.png" width="45%" />
 </p>
 
 <p align="center">
@@ -187,10 +215,10 @@ The dataset was imported in Excel for data cleaning using Power Query tools.
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/roletenure_salary.png" width="45%" />
 </p>
 
-<p align="center">
-  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/worktenure_distribution.png" width="45%" />
-  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/worktenure_salary.png" width="45%" />
-</p>
+
+#### Industry Distribution and Salary
+  - The Information Technology (IT) industry represents the largest share of respondents with over 4,000 participants, followed by Nonprofits and Higher Education, each with more than 2,000 respondents. The remaining industries generally report 1,000 or fewer respondents.
+  - In terms of average salary, Information Technology leads with an average of $120k, followed closely by the Law industry. The remaining industries cluster within the $65k–$100k range, indicating relatively balanced compensation levels across most sectors.
 
 <p align="center">
   <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/industry_distribution.png" width="45%" />
