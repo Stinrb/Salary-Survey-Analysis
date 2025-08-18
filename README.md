@@ -221,6 +221,6 @@ The dataset was imported in Excel for data cleaning using Power Query tools.
   - In terms of average salary, Information Technology leads with an average of $120k, followed closely by the Law industry. The remaining industries cluster within the $65k–$100k range, indicating relatively balanced compensation levels across most sectors.
 
 <p align="center">
-  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/industry_distribution.png" width="45%" />
-  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/industry_salary.png" width="45%" />
+  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/industry_distribution.png" width="49%" />
+  <img src="https://github.com/Stinrb/Salary-Survey-Analysis/blob/main/visualizations/industry_salary.png" width="49%" />
 </p>
